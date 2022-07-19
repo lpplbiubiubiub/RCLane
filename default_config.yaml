@@ -1,0 +1,32 @@
+device_target: Ascend
+enable_profiling: False
+enable_modelarts: False
+
+
+batch_size: 1
+
+
+##data setting
+train_data_type: 'train'
+val_data_type: 'val'
+dataset: 'culane'
+culane_root: '/home/data/CULane'
+mindrecord_dir: './MindeRecord_CULane'
+image_width : 1640
+image_height : 590
+resize_width: 800
+resize_height: 320
+only_create_dataset: False
+
+run_distribute: False
+do_train: True
+do_eval: False
+
+
+
+##codec
+seg_threshold: 0.5
+line_width: 5
+fm_width: 800
+fm_height: 320
+step_length: 10
