@@ -50,7 +50,7 @@ Lane detection is an important component of many realworld autonomous systems. D
 
 ```bibtex
 @inproceedings{xu2022rclane,
-  title={Relay Chain Prediction for Lane Detection},
+  title={RCLane: Relay Chain Prediction for Lane Detection},
   author={Xu, Shenghua and Cai, Xinyue and Zhao, Bin and Zhang, Li and Xu, Hang and Fu, Yanwei and Xue, Xiangyang},
   booktitle={European Conference on Computer Vision},
   year={2022}
