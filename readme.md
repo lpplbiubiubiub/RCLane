@@ -58,4 +58,4 @@ Lane detection is an important component of many realworld autonomous systems. D
 ```
 ## Acknowledgement
 
-* [MindSpore](https://github.com/omindspore-ai/mindspore)
+* [MindSpore](https://github.com/mindspore-ai/mindspore)
