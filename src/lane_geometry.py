@@ -226,9 +226,8 @@ class FloatLengthLine(object):
         lane_width = 15
         im1 = np.zeros((new_height, new_width), np.uint8)
         im2 = np.zeros((new_height, new_width), np.uint8)
-        interp_lane1 = self.represent_points  # spline_interp(self)  # 样条插值
-        # print interp_lane1
-        interp_lane2 = lane2.represent_points  # spline_interp(lane2)  # 样条插值
+        interp_lane1 = self.represent_points
+        interp_lane2 = lane2.represent_points
         for i in range(0, len(interp_lane1) - 1):
             cv2.line(im1, (int(interp_lane1[i]['x']), int(interp_lane1[i]['y'])),
                      (int(interp_lane1[i + 1]['x']), int(interp_lane1[i + 1]['y'])), 255, lane_width)
