@@ -4,6 +4,8 @@
 > Shenghua Xu, Xinyue Cai, Bin Zhao, Li Zhang, Hang Xu, Yanwei Fu, Xiangyang Xue        
 > **ECCV 2022**
 
+**This repository is an official MindSpore implementation of RCLane.**
+
 ## News
 - [2022/07/04]: RCLane is accepted by **ECCV 2022**!
 
